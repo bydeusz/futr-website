@@ -24,7 +24,7 @@ export default function Hero() {
 
       <iframe
         className="absolute top-0 left-0 w-full h-full object-cover filter grayscale z-30 scale-[350%] md:scale-[200%] xl:scale-110"
-        src="https://www.youtube.com/embed/boFTmzAyNhE?autoplay=1&controls=0&mute=1&loop=1&playlist=boFTmzAyNhE&modestbranding=1&showinfo=0&rel=0"
+        src="https://www.youtube.com/embed/JhJuwnID3Zw?autoplay=1&controls=0&mute=1&loop=1&playlist=JhJuwnID3Zw&modestbranding=1&showinfo=0&rel=0&start=3"
         allow="autoplay; encrypted-media"
         allowFullScreen></iframe>
     </div>

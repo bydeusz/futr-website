@@ -1,12 +1,12 @@
 import Image from "next/image";
 
-interface MarqueeProps {
+interface BrandsProps {
   data: any[];
 }
 
-export default function Brands({ data }: MarqueeProps) {
+export default function Brands({ data }: BrandsProps) {
   return (
-    <div className="relative overflow-hidden py-12">
+    <div className="relative overflow-hidden py-14">
       <div className="absolute top-0 left-0 h-full w-64 z-50 bg-gradient-to-r from-black to-transparent"></div>
       <div className="absolute top-0 right-0 h-full w-64 z-50 bg-gradient-to-l from-black to-transparent"></div>
 

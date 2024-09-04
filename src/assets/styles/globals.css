@@ -58,7 +58,7 @@
 }
 
 body {
-  @apply bg-black text-white;
+  @apply bg-black text-white font-grotesk;
 }
 
 h1 {
@@ -67,4 +67,8 @@ h1 {
 
 h2, h3, h4, h5, h6 {
   @apply font-grotesk font-bold text-4xl uppercase;
+}
+
+p {
+  @apply text-lg font-light;
 }

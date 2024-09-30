@@ -1,12 +1,12 @@
 export const uspData = [
   {
     _uid: "1",
-    title: "Networking",
-    description: "Connect with like-minded individuals and expand your professional network.",
+    title: "CLUB DEALS",
+    description: "We assist you in securing deals with clubs, brands and sponsors.",
   },
   {
     _uid: "2",
-    title: "Exposure",
+    title: "NO AGENT INVOLVED",
     description: "Being part of our network and brand events will give you more visibility and exposure.",
   },
   {
@@ -16,7 +16,7 @@ export const uspData = [
   },
   {
     _uid: "4",
-    title: "Career development",
+    title: "Career control",
     description: "We offer guidance and support to take your career to the next level.",
   },
 ] as Array<{

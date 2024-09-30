@@ -8,6 +8,7 @@ import { uspData } from "@/data/usp";
 import Header from "@/components/Header/Header";
 import HowTo from "@/components/HowTo/HowTo";
 import Pricing from "@/components/Pricing/Pricing";
+import Testimonials from "@/components/Testimonials/Testimonials";
 
 export default function Home() {
   return (
@@ -79,6 +80,7 @@ export default function Home() {
       <Header />
       <HowTo />
       <Pricing />
+      <Testimonials />
     </main>
   );
 }

@@ -4,7 +4,7 @@ interface SubtitleProps {
 
 export default function Subtitle({ children }: SubtitleProps) {
   return (
-    <div className="font-grotesk uppercase text-sm font-bold opacity-70 tracking-wide">
+    <div className="font-grotesk uppercase text-sm font-bold opacity-70 tracking-widest">
       {children}
     </div>
   );

@@ -3,7 +3,7 @@ import Button from "../Actions/Button/Button";
 
 export default function Pricing() {
   return (
-    <section className="py-12 sm:py-16 lg:py-20">
+    <section className="py-12 sm:py-16 lg:py-20" id="pricing">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="max-w-xl px-8 mx-auto text-center md:px-0">
           <h2 className="text-3xl font-bold text-white sm:text-4xl xl:text-5xl font-pj">

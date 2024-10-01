@@ -15,6 +15,7 @@ export default function Home() {
     <main className="space-y-12">
       <Hero />
       <Column
+        id="about"
         position="left"
         image="/img/voetballer-1.jpg"
         height={736}
@@ -68,7 +69,7 @@ export default function Home() {
           </p>
         </div>
       </Column>
-      <Usp list={uspData}>
+      <Usp list={uspData} id="features">
         <h2>As FUTR, we can offer the following benefits to athletes</h2>
         <p>
           We aim to bring transparency to the football industry, leaving a

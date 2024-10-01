@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 interface UspProps {
+  id?: string;
   children: React.ReactNode;
   list: {
     _uid: string;
@@ -9,14 +10,14 @@ interface UspProps {
   }[];
 }
 
-export default function Usp({ children, list }: UspProps) {
+export default function Usp({ id, children, list }: UspProps) {
   return (
-    <section>
-      <div
-        className="flex flex-col lg:flex-row items-center space-x-0 lg:space-x-16 space-y-8 lg:space-y-0"
-        id="features">
-        <div className="w-full lg:w-1/2 space-y-6 px-32">{children}</div>
-        <div className="w-full lg:w-1/2 bg-futr-red text-white py-32 px-32 space-y-6">
+    <section id={id}>
+      <div className="flex flex-col lg:flex-row items-center space-x-0 lg:space-x-16 space-y-8 lg:space-y-0">
+        <div className="w-full xl:w-1/2 space-y-6 px-6 xl:px-32">
+          {children}
+        </div>
+        <div className="w-full lg:w-1/2 bg-futr-red text-white p-6 xl:py-32 xl:px-32 space-y-6">
           {list.map((item, index) => (
             <div key={index} className="flex text-futr-black space-x-2">
               <div className="w-[50px] h-[50px]">

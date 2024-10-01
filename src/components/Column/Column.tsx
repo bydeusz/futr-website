@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 interface ColumnProps {
+  id?: string;
   position: string;
   image: string;
   children: React.ReactNode;
@@ -9,6 +10,7 @@ interface ColumnProps {
 }
 
 export default function Column({
+  id,
   position,
   image,
   children,
@@ -18,7 +20,9 @@ export default function Column({
   const renderColumnLayout = () => {
     if (position === "left") {
       return (
-        <div className="flex flex-col lg:flex-row items-center space-x-0 lg:space-x-16 space-y-8 lg:space-y-0">
+        <div
+          className="flex flex-col lg:flex-row items-center space-x-0 lg:space-x-16 space-y-8 lg:space-y-0"
+          id={id}>
           <div className="w-full lg:w-1/2 space-y-6">{children}</div>
           <div className="w-full lg:w-1/2 rounded-md">
             <Image src={image} alt="Image" width={height} height={width} />
@@ -27,7 +31,9 @@ export default function Column({
       );
     } else {
       return (
-        <div className="flex flex-col lg:flex-row-reverse items-center lg:space-x-reverse space-x-0 lg:space-x-16 space-y-8 lg:space-y-0">
+        <div
+          className="flex flex-col lg:flex-row-reverse items-center lg:space-x-reverse space-x-0 lg:space-x-16 space-y-8 lg:space-y-0"
+          id={id}>
           <div className="w-full lg:w-1/2 space-y-6">{children}</div>
           <div className="w-full lg:w-1/2 rounded-md">
             <Image src={image} alt="Image" width={height} height={width} />

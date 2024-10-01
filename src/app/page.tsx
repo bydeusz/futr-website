@@ -2,8 +2,6 @@ import Hero from "@/components/Hero/Hero";
 import Column from "@/components/Column/Column";
 import Usp from "@/components/Usp/Usp";
 import Button from "@/components/Actions/Button/Button";
-
-import { brandData } from "@/data/brands";
 import { uspData } from "@/data/usp";
 import Header from "@/components/Header/Header";
 import HowTo from "@/components/HowTo/HowTo";

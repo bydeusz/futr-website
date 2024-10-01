@@ -19,9 +19,10 @@ export default function Pricing() {
               <p className="mt-5 text-base font-normal leading-7 mb-6">
                 The essential plan for athletes, clubs, and brands.
               </p>
-              <Button href="/register">Get started</Button>
 
-              <p className="mt-8 text-base font-semibold">What's included:</p>
+              <p className="mt-8 text-base font-semibold tracking-wide">
+                What's included:
+              </p>
               <ul className="mt-4 space-y-3 text-base font-normal">
                 <li>Personal profile & Connections</li>
                 <li>Basic messaging</li>
@@ -35,15 +36,15 @@ export default function Pricing() {
           <div className="relative">
             <div className="relative overflow-hidden bg-futr-red rounded-2xl text-white py-12">
               <div className="p-6 lg:px-10 lg:py-8">
-                <h3 className="text-lg font-bold tracking-widest">Premium</h3>
+                <h3 className="text-lg font-bold tracking-wide">Premium</h3>
                 <p className="mt-3 text-5xl font-bold ">$159</p>
                 <p className="mt-5 text-base font-normal leading-7 mb-6">
                   Everything from the basic plan and more.
                 </p>
 
-                <Button href="/register">Get started</Button>
-
-                <p className="mt-8 text-base font-bold">What's included:</p>
+                <p className="mt-8 text-base font-bold tracking-wide">
+                  What's included:
+                </p>
                 <ul className="mt-4 space-y-3 text-base font-medium">
                   <li>Enhanced visibility</li>
                   <li>Access to exclusive opportunities</li>
@@ -57,14 +58,15 @@ export default function Pricing() {
 
           <div className="overflow-hidden bg-futr-black rounded-2xl text-futr-white">
             <div className="p-6 lg:px-10 lg:py-8">
-              <h3 className="text-lg font-bold tracking-widest">Elite</h3>
+              <h3 className="text-lg font-bold tracking-wide">Elite</h3>
               <p className="mt-3 text-5xl font-bold">$450</p>
               <p className="mt-5 text-base font-normal leading-7 mb-6">
                 Everything from the pro and basic plan plus more.
               </p>
-              <Button href="/register">Get started</Button>
 
-              <p className="mt-8 text-base font-semibold">What's included:</p>
+              <p className="mt-8 text-base font-semibold tracking-wide">
+                What's included:
+              </p>
               <ul className="mt-4 space-y-3 text-base font-normal">
                 <li>Full access to all platform features</li>
                 <li>Legal and contract assistance</li>
@@ -74,6 +76,9 @@ export default function Pricing() {
               </ul>
             </div>
           </div>
+        </div>
+        <div className="flex justify-center pt-16">
+          <Button href="/register">Join for free now!</Button>
         </div>
       </div>
     </section>

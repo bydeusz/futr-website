@@ -12,7 +12,7 @@ export default function Button({ href, children }: ButtonProps) {
       href={href}
       className="inline-flex bg-futr-red text-futr-black font-grotesk uppercase font-bold tracking-wide text-xl py-4 px-6 items-center hover:bg-futr-white transition-all">
       <Image
-        src="/icons/futr-arrow.svg"
+        src="/img/futr-arrow.svg"
         alt="FUTR Arrow icon"
         className="mr-2"
         width={15}

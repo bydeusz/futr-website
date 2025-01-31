@@ -22,7 +22,7 @@ export default function Usp({ id, children, list }: UspProps) {
             <div key={index} className="flex text-futr-black space-x-2">
               <div className="w-[50px] h-[50px]">
                 <Image
-                  src="/icons/futr-arrow.svg"
+                  src="/img/futr-arrow.svg"
                   alt="FUTR Icon"
                   width={30}
                   height={30}
